@@ -1,3 +1,8 @@
+@font-face {
+  src: url(./fonts/Pacifico-Regular.ttf);
+  font-family: pac;
+}
+
 body {
   background-color: rgb(252, 225, 223);
 }
@@ -23,8 +28,9 @@ body {
 }
 
 .buttonsname {
-  color: rgb(83, 5, 38);
-  font-size: 18px;
+  color: #881212;
+  font-size: 30px;
+  font-family: pac;
 }
 
 .blankspace {
