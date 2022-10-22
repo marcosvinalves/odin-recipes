@@ -2,7 +2,7 @@ body {
   background-color: rgb(252, 225, 223);
 }
 
-div.title {
+.title {
   color: white;
   background-color: red;
   font-size: 32px;
@@ -10,9 +10,24 @@ div.title {
   font-weight: bold;
 }
 
-div.box {
+.box {
   text-align: left;
 }
-div.buttons {
+
+.container,
+.buttons {
+  border: none;
   text-align: center;
+  color: rgb(252, 225, 223);
+  background-color: rgb(252, 225, 223);
+}
+
+.buttonsname {
+  color: rgb(83, 5, 38);
+  font-size: 18px;
+}
+
+.blankspace {
+  background-color: rgb(252, 225, 223);
+  color: rgb(252, 225, 223);
 }
