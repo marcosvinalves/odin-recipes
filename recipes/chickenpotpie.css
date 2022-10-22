@@ -1,0 +1,42 @@
+@font-face {
+  src: url(../fonts/Pacifico-Regular.ttf);
+  font-family: pac;
+}
+
+body {
+  background-color: rgb(252, 225, 223);
+}
+
+.box {
+  text-align: left;
+}
+
+.title {
+  text-align: right;
+}
+
+#rcorners {
+  border-radius: 25px;
+  background: rgb(255, 196, 196);
+  padding: 20px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-family: pac;
+  color: #881212;
+  font-size: 42px;
+  font-weight: 300;
+}
+
+.chicken {
+  width: 350;
+  height: 400;
+  text-align: center;
+}
+
+.content {
+  text-align: justify;
+  border-radius: 25px;
+  padding: 20px;
+  background: whitesmoke;
+}
